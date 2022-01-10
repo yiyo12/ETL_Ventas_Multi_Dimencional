@@ -1,0 +1,15 @@
+inteligencia de negocio multidimencional
+En resumen engloba todas las relaciones que tiene la tabla productor por medio de un inner join.
+
+-se crea para realizar grandes consultas a grandes volumenes de informacion, como parte de estrategias de negocio.
+-Tenemos 4 productos en ventas en ventasDM viven los mismo productos. Este proyecto es para cuando se crea un producto nuevo
+se insertann en ventasDM, solo productos NUEVOS.
+
+
+db 1: db state.
+db dm: db multidimencional.
+
+En este video explico un ejemplo básico de proceso ETC carga incremental de datos que es aplicado a la realidad en el campo de inteligencia de negocios. 
+El ejercicio consiste en cargar una base de datos destino(una base de datos multidimencional) con información recién ingresada en una base de datos origen (base de datos relacional). 
+Ambas bases de datos son prácticamente la misma a diferencia que la de destino está en función de dimensiones.
+La cantidad de productos ingresados en la base de datos origen deben cargarse previa ejecución del proyecto a una base de datos destino

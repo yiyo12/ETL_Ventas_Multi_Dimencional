@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.Venta"
+  DTS:DTSID="{8C70588D-FB8F-4FE0-AB6B-C62129392388}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=Venta;Integrated Security=True;Application Name=SSIS-IncrementalDimencionServiceDB-{8C70588D-FB8F-4FE0-AB6B-C62129392388}localhost.Venta;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
